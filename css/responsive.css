@@ -1,0 +1,114 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu nav ul li {
+        margin: 0 14px;
+    }
+}
+
+/* Normal desktop (LG) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .accede-div h4 {
+        font-size: 16px;
+    }
+    .brand-all img {
+        padding: 15px 23px;
+    }
+    .main-menu nav ul li {
+        margin: 0 10px;
+    }
+}
+
+/* Tablet desktop (MD) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin-left: 0px;
+    }
+    .service-img a > img {
+        margin-top: 78px;
+    }
+    ul.blog-li li {
+        margin: 0 6px;
+    }
+    .blog-li li:last-child {
+        width: 70px;
+    }
+    .price-all {
+        margin-bottom: 30px;
+    }
+    .brand-all img {
+        padding: 16px;
+        margin: 0 10px;
+    }
+    .sub-text h4 {
+        padding: 0 0px;
+    }
+}
+ 
+/* small mobile (XS):320px. */
+@media (max-width: 767px) {
+
+    .logo {
+        margin-left: 0px;
+    }
+    .btn-pd-2 {
+        margin: 30px 0 0 0px;
+    }
+    .pg {
+        padding: 0 30px;
+    }
+    .accede-heading h3 {
+        padding: -3px 50px;
+    }
+    .panel-heading a {
+        font-size: 13px;
+    }
+    .flexslider {
+        margin: 0 0px;
+    }
+    .blog-all {
+        margin-bottom: 20px;
+    }
+    .brand-all img {
+        padding: 13px 2px; 
+        margin: 0 48px;
+    }
+    .price-all {
+        margin-bottom: 30px;
+    }
+    .sub-text h4 {
+        padding: 0 0px;
+    }
+    .contact {
+        padding: 30px 25px;
+        margin-top: 54px;
+    }
+    .btn.btn-blue {
+        margin-top: 10px;
+    }
+    .bar-icon-2 li a {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .bar-icon-2 li {
+        margin: 0 16px;
+    }
+    .copy-right p {
+       font-size: 10px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .input-content input {
+        width: 100%;
+    }
+    .input-content textarea {
+        width: 100%;
+    }
+    .accede-div h4 {
+    font-size: 14px;
+    }
+}
